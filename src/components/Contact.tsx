@@ -9,7 +9,8 @@ const Contact: React.FC = () => {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="section-title">Restez connecté</h2>
           <p className="mt-8 mb-10 text-scham-dark/80">
-            Suivez-nous sur les réseaux sociaux pour découvrir nos dernières créations et actualités
+            Tu veux collaborer, poser une question ou juste nous suivre ?
+            Retrouve-nous sur :
           </p>
           
           <div className="flex justify-center gap-6">
@@ -17,14 +18,14 @@ const Contact: React.FC = () => {
               <div className="w-16 h-16 rounded-full bg-white shadow-md flex items-center justify-center group-hover:bg-scham-gold transition-colors duration-300">
                 <Instagram size={28} className="text-scham-dark group-hover:text-white transition-colors duration-300" />
               </div>
-              <span className="mt-2 text-sm">Instagram</span>
+              <span className="mt-2 text-sm">@Colosse_mais_pas_dopey</span>
             </a>
             
             <a href="mailto:contact@schamcity.com" className="flex flex-col items-center group">
               <div className="w-16 h-16 rounded-full bg-white shadow-md flex items-center justify-center group-hover:bg-scham-gold transition-colors duration-300">
                 <Mail size={28} className="text-scham-dark group-hover:text-white transition-colors duration-300" />
               </div>
-              <span className="mt-2 text-sm">Email</span>
+              <span className="mt-2 text-sm">contact@schamcity.com</span>
             </a>
           </div>
         </div>

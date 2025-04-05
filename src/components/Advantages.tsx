@@ -5,29 +5,29 @@ import { CheckCircle, Lightbulb, HeadphonesIcon, Sparkles } from 'lucide-react';
 const advantagesData = [
   {
     id: 1,
-    title: "Qualité",
-    description: "Des matériaux premium et des processus rigoureux pour une qualité irréprochable.",
+    title: "Qualité artisanale",
+    description: "Nos modèles sont fabriqués avec des matériaux premium et un souci du détail incomparable.",
     Icon: CheckCircle,
     color: "text-green-500"
   },
   {
     id: 2,
-    title: "Inspiration",
-    description: "Des designs uniques pour stimuler votre créativité et votre imagination.",
+    title: "Design inspiré",
+    description: "Chaque création puise son style dans les tendances urbaines, le street art et l'innovation visuelle.",
     Icon: Lightbulb,
     color: "text-yellow-500"
   },
   {
     id: 3,
-    title: "Service client",
-    description: "Une équipe attentive et réactive pour répondre à toutes vos questions.",
+    title: "Support client réactif",
+    description: "Une question ? Notre équipe te répond en moins de 24h. Satisfaction garantie.",
     Icon: HeadphonesIcon,
     color: "text-blue-500"
   },
   {
     id: 4,
-    title: "Innovation",
-    description: "Des concepts novateurs pour repousser les limites de la créativité.",
+    title: "Innovation continue",
+    description: "Nous lançons régulièrement de nouvelles collections pour rester à la pointe.",
     Icon: Sparkles,
     color: "text-purple-500"
   }

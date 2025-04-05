@@ -7,19 +7,18 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">À propos</h3>
+            <h3 className="text-xl font-semibold mb-4">À propos de Schamcity</h3>
             <p className="text-white/70 leading-relaxed">
-              Schamcity est une marque spécialisée dans la création de modèles créatifs et immersifs pour stimuler l'imagination et la créativité.
+              Fondée par un passionné de design et de culture urbaine, Schamcity est bien plus qu'une boutique : c'est un mouvement créatif.
             </p>
           </div>
           
           <div>
             <h3 className="text-xl font-semibold mb-4">Liens utiles</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">About us</a></li>
-              <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">Help</a></li>
+              <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">À propos</a></li>
+              <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">Aide</a></li>
               <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">Contact</a></li>
-              <li><a href="#" className="text-white/70 hover:text-scham-gold transition-colors">Mentions légales</a></li>
             </ul>
           </div>
           
@@ -40,7 +39,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 mt-10 pt-6 text-center">
-          <p className="text-white/60">© 2025 Schamcity. Tous droits réservés.</p>
+          <p className="text-white/60">© 2025 Schamcity – Tous droits réservés.</p>
         </div>
       </div>
     </footer>

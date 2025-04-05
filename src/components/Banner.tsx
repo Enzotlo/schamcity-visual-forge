@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Button } from "@/components/ui/button"; 
 
 const Banner: React.FC = () => {
   return (
@@ -12,14 +13,14 @@ const Banner: React.FC = () => {
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-20 px-6">
         <h2 className="text-4xl md:text-6xl font-bold mb-6 text-center animate-fade-in">
-          Modèles Créatifs & Immersifs
+          Explore l'univers Schamcity
         </h2>
         <p className="text-lg md:text-xl max-w-2xl text-center animate-fade-in">
-          Découvrez notre univers de créations uniques et laissez libre cours à votre imagination
+          Créativité, Style & Innovation
         </p>
-        <button className="btn-primary mt-8 animate-fade-in">
-          Explorer
-        </button>
+        <Button className="btn-primary mt-8 animate-fade-in">
+          Découvrir la boutique
+        </Button>
       </div>
     </section>
   );
