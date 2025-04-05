@@ -24,11 +24,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ image, title, description, pr
           {description && (
             <p className="text-sm text-scham-dark/70 mb-4 line-clamp-2">{description}</p>
           )}
-          <div className="flex justify-between items-center">
+          <div className="flex justify-end">
             <span className="text-scham-gold font-bold">{price}</span>
-            <button className="text-sm px-3 py-1 rounded-full bg-scham-light text-scham-dark hover:bg-scham-gold hover:text-white transition-colors duration-300">
-              Acheter
-            </button>
           </div>
         </div>
       </div>
