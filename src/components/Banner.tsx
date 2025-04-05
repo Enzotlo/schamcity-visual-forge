@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button"; 
+import { Link } from 'react-router-dom';
 
 const Banner: React.FC = () => {
   return (
@@ -18,9 +19,11 @@ const Banner: React.FC = () => {
         <p className="text-lg md:text-xl max-w-2xl text-center animate-fade-in">
           Créativité, Style & Innovation
         </p>
-        <Button className="btn-primary mt-8 animate-fade-in">
-          Découvrir la boutique
-        </Button>
+        <Link to="/shop">
+          <Button className="btn-primary mt-8 animate-fade-in">
+            Découvrir la boutique
+          </Button>
+        </Link>
       </div>
     </section>
   );
