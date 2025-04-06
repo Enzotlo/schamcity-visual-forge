@@ -1,22 +1,17 @@
-# Welcome to your Lovable project
+
+# Schamcity Visual Forge Project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/5fc6614c-e052-4895-8bf0-eee60c2a29e3
+This is the codebase for the Schamcity Visual Forge website.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/5fc6614c-e052-4895-8bf0-eee60c2a29e3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +57,19 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/5fc6614c-e052-4895-8bf0-eee60c2a29e3) and click on Share -> Publish.
+The project can be built for production using:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+npm run build
+```
 
-Yes it is!
+This will create optimized files in the `dist` directory that can be deployed to any static hosting service.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Can I connect a custom domain to my project?
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Yes! You can connect a custom domain by configuring DNS settings with your hosting provider.
+
+For most hosting services, this involves:
+1. Adding DNS records at your domain registrar 
+2. Configuring the domain in your hosting settings
+3. Verifying ownership of the domain
